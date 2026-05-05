@@ -82,4 +82,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with Passion by **Who's Who Studio**. 🥂
+Built with Passion by **MUSTAFA KHIZAR**. 🥂
