@@ -1,7 +1,5 @@
 # Who's Who | Animation & Creative Studio
 
-![Header Image Placeholder](https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=1200)
-
 ## 🎥 Overview
 
 **Who's Who** is a premium, high-impact creative portfolio website designed for motion directors, animators, and creative studios. It features a gritty "street-art" vibe combined with modern, sophisticated web interactions and a unique visual identity.
