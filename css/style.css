@@ -1,4 +1,4 @@
-/* Design System for Who's Who */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Permanent+Marker&family=Archivo+Black&display=swap');
 
 :root {
@@ -6,7 +6,7 @@
     --bg-dark: #000000;
     --text-primary: #000000;
     --text-inverted: #FFFFFF;
-    --accent-metallic: #B8860B; /* Dark Goldenrod */
+    --accent-metallic: #B8860B; 
     --font-logo: 'Permanent Marker', cursive;
     --font-sans: 'Inter', sans-serif;
     --font-heading: 'Archivo Black', sans-serif;
@@ -28,7 +28,6 @@ body {
     position: relative;
 }
 
-/* Grain Texture Overlay */
 body::before {
     content: "";
     position: fixed;
@@ -36,13 +35,12 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('https://www.transparenttextures.com/patterns/60-lines.png'); /* Subtle grain pattern */
+    background-image: url('https://www.transparenttextures.com/patterns/60-lines.png'); 
     opacity: 0.05;
     pointer-events: none;
     z-index: 9999;
 }
 
-/* Header & Navigation */
 header {
     padding: 4rem 2rem 2rem;
     text-align: center;
@@ -104,7 +102,6 @@ nav ul li a.active {
     color: var(--accent-metallic);
 }
 
-/* Portfolio Section */
 .gallery-section {
     padding: 4rem 2rem;
 }
@@ -201,7 +198,6 @@ nav ul li a.active {
     letter-spacing: 1px;
 }
 
-/* Bold Statement Section */
 .statement-section {
     background-color: var(--bg-dark);
     color: var(--text-inverted);
@@ -224,7 +220,6 @@ nav ul li a.active {
     opacity: 0.8;
 }
 
-/* Footer */
 footer {
     padding: 4rem 2rem;
     text-align: center;
@@ -233,7 +228,6 @@ footer {
     opacity: 0.6;
 }
 
-/* Section Titles */
 .section-title {
     font-family: var(--font-heading);
     font-size: 3rem;
@@ -247,7 +241,6 @@ footer {
     margin-bottom: 4rem;
 }
 
-/* About Section */
 .about-section {
     padding: 8rem 2rem;
     background-color: var(--bg-light);
@@ -285,7 +278,6 @@ footer {
     opacity: 0.8;
 }
 
-/* Memories Section */
 .memories-section {
     padding: 8rem 2rem;
     background-color: #000;
@@ -311,7 +303,6 @@ footer {
     transform: scale(0.98);
 }
 
-/* Contact Section */
 .contact-section {
     padding: 10rem 2rem;
     text-align: center;
@@ -349,7 +340,6 @@ footer {
     letter-spacing: 2px;
 }
 
-/* Philosophy Grid */
 .philosophy-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -366,7 +356,6 @@ footer {
     color: var(--accent-metallic);
 }
 
-/* Contact Page Specifics */
 .contact-container {
     display: flex;
     gap: 6rem;
@@ -451,7 +440,6 @@ footer {
     transform: translateY(-5px);
 }
 
-/* Responsive Extensions */
 @media (max-width: 992px) {
     .about-container, .contact-container {
         flex-direction: column;

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Reveal animations on scroll
+    
     const observerOptions = {
         threshold: 0.1
     };
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(item);
     });
 
-    // Logo hover effect persistence (optional)
+    
     const logo = document.querySelector('.logo');
     logo.addEventListener('mouseover', () => {
         logo.style.color = 'var(--accent-metallic)';
@@ -30,17 +30,17 @@ document.addEventListener('DOMContentLoaded', () => {
         logo.style.color = 'var(--text-primary)';
     });
 
-    // Simple Filter Logic
+    
     const filterBtns = document.querySelectorAll('.filter-btn');
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            // Remove active class from all
+            
             filterBtns.forEach(b => b.classList.remove('active'));
-            // Add to current
+            
             btn.classList.add('active');
             
-            // In a real app, you'd filter items here
-            // For now, let's just trigger a small animation
+            
+            
             gridItems.forEach(item => {
                 item.style.opacity = '0';
                 setTimeout(() => {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Multi-Section Reveal
+    
     const revealSections = document.querySelectorAll('.section-title, .about-image, .about-text p, .memory-item, .contact-content, .phi-item, .contact-info, .form-group, .grid-item');
     revealSections.forEach((el, index) => {
         el.style.opacity = '0';
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 
-    // Contact Form Handling
+    
     const contactForm = document.getElementById('proper-contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Bold Statement Reveal (Specific)
+    
     const statement = document.querySelector('.statement-section h2');
     if (statement) {
         statement.style.opacity = '0';
