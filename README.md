@@ -4,9 +4,9 @@
 
 ## 🎥 Overview
 
-**Who's Who** is a premium, high-impact creative portfolio website inspired by the artistic and edgy aesthetic of [Blink My Brain](https://blinkmybrain.wtf). Designed for motion directors, animators, and creative studios, it features a gritty "street-art" vibe combined with modern, sophisticated web interactions.
+**Who's Who** is a premium, high-impact creative portfolio website designed for motion directors, animators, and creative studios. It features a gritty "street-art" vibe combined with modern, sophisticated web interactions and a unique visual identity.
 
-The project is a multi-page experience built with pure **Vanilla HTML5, CSS3, and JavaScript**, ensuring maximum performance and a unique visual identity that avoids generic template looks.
+The project is a multi-page experience built with pure **Vanilla HTML5, CSS3, and JavaScript**, ensuring maximum performance and a distinct aesthetic that stands out from generic templates.
 
 ---
 
@@ -40,7 +40,7 @@ The project is a multi-page experience built with pure **Vanilla HTML5, CSS3, an
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/whos-who-studio.git
+   git clone git@github.com:KhizarDoingProgramming/Whos-Who.git
    ```
 2. **Navigate to the Directory**:
    ```bash
