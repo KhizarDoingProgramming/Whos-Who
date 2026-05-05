@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Who's Who</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="location.href='index.html'">Who's Who</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h2 class="section-title centered">Let's Collaborate</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>Have a project in mind? Or just want to talk about motion? Drop us a line.</p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <span>Email</span>
+                            <p>hello@whoswho.studio</p>
+                        </div>
+                        <div class="detail-item">
+                            <span>Phone</span>
+                            <p>+1 (555) 000-WHO</p>
+                        </div>
+                        <div class="detail-item">
+                            <span>Address</span>
+                            <p>123 Creative Blvd,<br>Digital District, NY 10013</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form id="proper-contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="YOUR NAME" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="YOUR EMAIL" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="subject">
+                                <option value="" disabled selected>PROJECT TYPE</option>
+                                <option value="motion">Motion Graphics</option>
+                                <option value="animation">2D/3D Animation</option>
+                                <option value="branding">Visual Identity</option>
+                                <option value="other">Something Else</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="TELL US MORE" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Who's Who Studio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
